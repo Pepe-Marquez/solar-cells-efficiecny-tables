@@ -12,8 +12,8 @@ class MySchemaPackageEntryPoint(SchemaPackageEntryPoint):
 
         return m_package
 
-class EfficiencyTablesEntryPoint(SchemaPackageEntryPoint):
 
+class EfficiencyTablesEntryPoint(SchemaPackageEntryPoint):
     def load(self):
         from nomad_solar_cells_efficiency_tables.schema_packages.efficiency_tables import (
             m_package,
@@ -32,4 +32,3 @@ mypackage = MySchemaPackageEntryPoint(
     name='MyPackage',
     description='Schema package defined using the new plugin mechanism.',
 )
-
