@@ -15,7 +15,7 @@ class MySchemaPackageEntryPoint(SchemaPackageEntryPoint):
 
 class EfficiencyTablesEntryPoint(SchemaPackageEntryPoint):
     def load(self):
-        from nomad_solar_cells_efficiency_tables.schema_packages.efficiency_tables import (
+        from nomad_solar_cells_efficiency_tables.schema_packages.efficiency_tables import (  # noqa: E501
             m_package,
         )
 
@@ -24,7 +24,7 @@ class EfficiencyTablesEntryPoint(SchemaPackageEntryPoint):
 
 efficiency_tables = EfficiencyTablesEntryPoint(
     name='Efficiency Tables',
-    description='Schema package for describing data from efficiency tables of solar cells.',
+    description='Schema package for describing data from efficiency tables of solar cells.',  # noqa: E501
 )
 
 
