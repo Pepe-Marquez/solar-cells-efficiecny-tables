@@ -61,7 +61,7 @@ class PublicationReference(PublicationReference, ArchiveSection):
     m_def = Section()
     DOI_number = Quantity(
         type=str,
-        a_tabular={'name': 'doi'},
+        # a_tabular={'name': 'doi'},
         a_eln={'component': 'StringEditQuantity'},
     )
 

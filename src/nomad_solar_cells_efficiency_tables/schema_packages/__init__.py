@@ -12,6 +12,10 @@ class MySchemaPackageEntryPoint(SchemaPackageEntryPoint):
 
         return m_package
 
+mypackage = MySchemaPackageEntryPoint(
+    name='MyPackage',
+    description='Schema package defined using the new plugin mechanism.',
+)
 
 class EfficiencyTablesEntryPoint(SchemaPackageEntryPoint):
     def load(self):
@@ -24,11 +28,8 @@ class EfficiencyTablesEntryPoint(SchemaPackageEntryPoint):
 
 efficiency_tables = EfficiencyTablesEntryPoint(
     name='Efficiency Tables',
-    description='Schema package for describing data from efficiency tables of solar cells.',  # noqa: E501
+    description='Schema package data from efficiency tables of solar cells.',  # noqa: E501
 )
 
 
-mypackage = MySchemaPackageEntryPoint(
-    name='MyPackage',
-    description='Schema package defined using the new plugin mechanism.',
-)
+
