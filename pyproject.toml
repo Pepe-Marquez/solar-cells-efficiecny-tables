@@ -109,6 +109,8 @@ where = ["src"]
 
 [project.entry-points.'nomad.plugin']
 
-mypackage = "nomad_solar_cells_efficiency_tables.schema_packages:efficiency_tables"
+mypackage = "nomad_solar_cells_efficiency_tables.schema_packages:mypackage"
+
+efficiency_tables = "nomad_solar_cells_efficiency_tables.schema_packages:efficiency_tables"
 
 myapp = "nomad_solar_cells_efficiency_tables.apps:myapp"
