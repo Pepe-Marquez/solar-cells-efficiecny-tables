@@ -74,7 +74,7 @@ select = [
     "UP",
     # isort
     "I",
-    # pylint 
+    # pylint
     "PL",
 ]
 
@@ -109,6 +109,6 @@ where = ["src"]
 
 [project.entry-points.'nomad.plugin']
 
-mypackage = "nomad_solar_cells_efficiency_tables.schema_packages:mypackage"
+mypackage = "nomad_solar_cells_efficiency_tables.schema_packages:efficiency_tables"
 
 myapp = "nomad_solar_cells_efficiency_tables.apps:myapp"
