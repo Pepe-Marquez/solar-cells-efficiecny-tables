@@ -1,0 +1,26 @@
+{
+  "template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+  "commit": "e81af488ea2ce0810ba7d6319980a2010455e064",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Pepe Marquez",
+      "email": "jose.marquez@physik.hu-berlin.de",
+      "github_username": "Pepe-Marquez",
+      "plugin_name": "solar-cells-efficiency-tables",
+      "module_name": "solar_cells_efficiency_tables",
+      "short_description": "This is a schema package to digitiz solar",
+      "version": "0.1.0",
+      "license": "Apache Software License 2.0",
+      "include_schema_package": true,
+      "include_normalizer": false,
+      "include_parser": false,
+      "include_app": true,
+      "_copy_without_render": [
+        "*.html"
+      ],
+      "_template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin"
+    }
+  },
+  "directory": null
+}
